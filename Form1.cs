@@ -118,92 +118,106 @@ namespace revisionForm
                 {
                     digit += character.ToString();
                 }
-                else
+                else if (digit != "" && (number.Count <= opr.Count) && digit != ".")
                 {
                     number.Add(double.Parse(digit));
                     opr.Add(character);
                     digit = "";
+                } 
+                else
+                {
+                    resultTb.Text = "Math Error";
+                    return;
                 }
             }
 
-            number.Add(double.Parse(digit));
+            if (digit != "" && digit != ".")
+                number.Add(double.Parse(digit));
 
-            if (opr.Count < 1)
+            if (number.Count <= opr.Count)
             {
-                result = resultTb.Text;
-            }
+                result = "Math Error";
+            } 
             else
             {
-                while (opr.Count > 0)
+                if (opr.Count < 1)
                 {
-                    int index = 0;
-                    bool mulDiv = false;
-
-                    foreach (char mulDivOpr in opr) {
-                        if (mulDivOpr == 'x' ||  mulDivOpr == '/' || mulDivOpr == '%')
-                        {
-                            mulDiv = true;
-                            break;
-                        }
-                        index++;
-                    }
-
-                    if (mulDiv)
+                    result = resultTb.Text;
+                }
+                else
+                {
+                    while (opr.Count > 0)
                     {
-                        switch (opr[index])
+                        int index = 0;
+                        bool mulDiv = false;
+
+                        foreach (char mulDivOpr in opr)
                         {
-                            case 'x':
-                                result = (number[index] * number[index + 1]).ToString();
+                            if (mulDivOpr == 'x' || mulDivOpr == '/' || mulDivOpr == '%')
+                            {
+                                mulDiv = true;
                                 break;
-                            case '/':
-                                if (number[index + 1] != 0)
-                                    result = (number[index] / number[index + 1]).ToString();
-                                else
-                                {
-                                    result = "Math Error";
-                                }
-                                break;
-                            case '%':
-                                if (number[index + 1] != 0)
-                                {
-                                    double temp = Math.Floor(number[index] / number[index + 1]) * number[index + 1];
-                                    result = (number[index] - temp).ToString();
-                                }
-                                    
-                                else
-                                {
-                                    result = "Math Error";
-                                }
-                                break;
+                            }
+                            index++;
                         }
-                    } 
-                    else
-                    {
-                        index = 0;
-                        switch (opr[index])
+
+                        if (mulDiv)
                         {
-                            case '+':
-                                result = (number[index] + number[index + 1]).ToString();
-                                break;
-                            case '-':
-                                if (number[index + 1] != 0)
-                                    result = (number[index] - number[index + 1]).ToString();
-                                else
-                                {
-                                    result = "Math Error";
+                            switch (opr[index])
+                            {
+                                case 'x':
+                                    result = (number[index] * number[index + 1]).ToString();
                                     break;
-                                }
-                                break;
-                        }
-                    }
+                                case '/':
+                                    if (number[index + 1] != 0)
+                                        result = (number[index] / number[index + 1]).ToString();
+                                    else
+                                    {
+                                        result = "Math Error";
+                                    }
+                                    break;
+                                case '%':
+                                    if (number[index + 1] != 0)
+                                    {
+                                        double temp = Math.Floor(number[index] / number[index + 1]) * number[index + 1];
+                                        result = (number[index] - temp).ToString();
+                                    }
 
-                    if (result == "Math Error")
-                        break;
-                    else
-                    {
-                        opr.RemoveAt(index);
-                        number.RemoveAt(index);
-                        number[index] = double.Parse(result);
+                                    else
+                                    {
+                                        result = "Math Error";
+                                    }
+                                    break;
+                            }
+                        }
+                        else
+                        {
+                            index = 0;
+                            switch (opr[index])
+                            {
+                                case '+':
+                                    result = (number[index] + number[index + 1]).ToString();
+                                    break;
+                                case '-':
+                                    if (number[index + 1] != 0)
+                                        result = (number[index] - number[index + 1]).ToString();
+                                    else
+                                    {
+                                        result = "Math Error";
+                                        break;
+                                    }
+                                    break;
+                            }
+                        }
+
+                        if (result == "Math Error")
+                            break;
+                        else
+                        {
+                            opr.RemoveAt(index);
+                            number.RemoveAt(index);
+                            number[index] = double.Parse(result);
+                        }
                     }
                 }
             }

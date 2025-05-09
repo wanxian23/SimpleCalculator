@@ -1,0 +1,10 @@
+G:\My Drive\School_Stuff\UTeM_Doc\Sem\Year2\Sem2\Event-Driven Programming\C#_Fun\calculatorC#\bin\Debug\revisionForm.exe.config
+G:\My Drive\School_Stuff\UTeM_Doc\Sem\Year2\Sem2\Event-Driven Programming\C#_Fun\calculatorC#\bin\Debug\revisionForm.exe
+G:\My Drive\School_Stuff\UTeM_Doc\Sem\Year2\Sem2\Event-Driven Programming\C#_Fun\calculatorC#\bin\Debug\revisionForm.pdb
+G:\My Drive\School_Stuff\UTeM_Doc\Sem\Year2\Sem2\Event-Driven Programming\C#_Fun\calculatorC#\obj\Debug\CalculatorForm.csproj.AssemblyReference.cache
+G:\My Drive\School_Stuff\UTeM_Doc\Sem\Year2\Sem2\Event-Driven Programming\C#_Fun\calculatorC#\obj\Debug\revisionForm.Form1.resources
+G:\My Drive\School_Stuff\UTeM_Doc\Sem\Year2\Sem2\Event-Driven Programming\C#_Fun\calculatorC#\obj\Debug\revisionForm.Properties.Resources.resources
+G:\My Drive\School_Stuff\UTeM_Doc\Sem\Year2\Sem2\Event-Driven Programming\C#_Fun\calculatorC#\obj\Debug\CalculatorForm.csproj.GenerateResource.cache
+G:\My Drive\School_Stuff\UTeM_Doc\Sem\Year2\Sem2\Event-Driven Programming\C#_Fun\calculatorC#\obj\Debug\CalculatorForm.csproj.CoreCompileInputs.cache
+G:\My Drive\School_Stuff\UTeM_Doc\Sem\Year2\Sem2\Event-Driven Programming\C#_Fun\calculatorC#\obj\Debug\revisionForm.exe
+G:\My Drive\School_Stuff\UTeM_Doc\Sem\Year2\Sem2\Event-Driven Programming\C#_Fun\calculatorC#\obj\Debug\revisionForm.pdb

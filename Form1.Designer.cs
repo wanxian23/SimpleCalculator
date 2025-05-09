@@ -53,6 +53,7 @@
             // 
             // resultTb
             // 
+            this.resultTb.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.resultTb.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.resultTb.Location = new System.Drawing.Point(123, 72);
             this.resultTb.Name = "resultTb";
@@ -63,79 +64,86 @@
             // 
             // cBt
             // 
+            this.cBt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.cBt.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cBt.Location = new System.Drawing.Point(123, 141);
             this.cBt.Name = "cBt";
             this.cBt.Size = new System.Drawing.Size(85, 49);
             this.cBt.TabIndex = 1;
             this.cBt.Text = "C";
-            this.cBt.UseVisualStyleBackColor = true;
+            this.cBt.UseVisualStyleBackColor = false;
             this.cBt.Click += new System.EventHandler(this.cBt_Click);
             // 
             // modulusBt
             // 
+            this.modulusBt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.modulusBt.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.modulusBt.Location = new System.Drawing.Point(230, 141);
             this.modulusBt.Name = "modulusBt";
             this.modulusBt.Size = new System.Drawing.Size(85, 49);
             this.modulusBt.TabIndex = 2;
             this.modulusBt.Text = "%";
-            this.modulusBt.UseVisualStyleBackColor = true;
+            this.modulusBt.UseVisualStyleBackColor = false;
             this.modulusBt.Click += new System.EventHandler(this.modulusBt_Click);
             // 
             // delBt
             // 
+            this.delBt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.delBt.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.delBt.Location = new System.Drawing.Point(339, 141);
             this.delBt.Name = "delBt";
             this.delBt.Size = new System.Drawing.Size(85, 49);
             this.delBt.TabIndex = 3;
             this.delBt.Text = "del";
-            this.delBt.UseVisualStyleBackColor = true;
+            this.delBt.UseVisualStyleBackColor = false;
             this.delBt.Click += new System.EventHandler(this.delBt_Click);
             // 
             // divisionBt
             // 
+            this.divisionBt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.divisionBt.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.divisionBt.Location = new System.Drawing.Point(447, 141);
             this.divisionBt.Name = "divisionBt";
             this.divisionBt.Size = new System.Drawing.Size(85, 49);
             this.divisionBt.TabIndex = 4;
             this.divisionBt.Text = "/";
-            this.divisionBt.UseVisualStyleBackColor = true;
+            this.divisionBt.UseVisualStyleBackColor = false;
             this.divisionBt.Click += new System.EventHandler(this.divisionBt_Click);
             // 
             // multiplyBt
             // 
+            this.multiplyBt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.multiplyBt.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.multiplyBt.Location = new System.Drawing.Point(447, 210);
             this.multiplyBt.Name = "multiplyBt";
             this.multiplyBt.Size = new System.Drawing.Size(85, 49);
             this.multiplyBt.TabIndex = 5;
             this.multiplyBt.Text = "x";
-            this.multiplyBt.UseVisualStyleBackColor = true;
+            this.multiplyBt.UseVisualStyleBackColor = false;
             this.multiplyBt.Click += new System.EventHandler(this.multiplyBt_Click);
             // 
             // minusBt
             // 
+            this.minusBt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.minusBt.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minusBt.Location = new System.Drawing.Point(447, 281);
             this.minusBt.Name = "minusBt";
             this.minusBt.Size = new System.Drawing.Size(85, 49);
             this.minusBt.TabIndex = 6;
             this.minusBt.Text = "-";
-            this.minusBt.UseVisualStyleBackColor = true;
+            this.minusBt.UseVisualStyleBackColor = false;
             this.minusBt.Click += new System.EventHandler(this.minusBt_Click);
             // 
             // plusBt
             // 
+            this.plusBt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.plusBt.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.plusBt.Location = new System.Drawing.Point(447, 351);
             this.plusBt.Name = "plusBt";
             this.plusBt.Size = new System.Drawing.Size(85, 49);
             this.plusBt.TabIndex = 7;
             this.plusBt.Text = "+";
-            this.plusBt.UseVisualStyleBackColor = true;
+            this.plusBt.UseVisualStyleBackColor = false;
             this.plusBt.Click += new System.EventHandler(this.plusBt_Click);
             // 
             // nineBt
@@ -239,13 +247,14 @@
             // 
             // equalBt
             // 
+            this.equalBt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.equalBt.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.equalBt.Location = new System.Drawing.Point(447, 420);
             this.equalBt.Name = "equalBt";
             this.equalBt.Size = new System.Drawing.Size(85, 49);
             this.equalBt.TabIndex = 17;
             this.equalBt.Text = "=";
-            this.equalBt.UseVisualStyleBackColor = true;
+            this.equalBt.UseVisualStyleBackColor = false;
             this.equalBt.Click += new System.EventHandler(this.equalBt_Click);
             // 
             // nothingBt
