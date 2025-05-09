@@ -1,0 +1,10 @@
+G:\My Drive\School_Stuff\UTeM_Doc\Sem\Year2\Sem2\Event-Driven Programming\C#_Fun\revisionForm\bin\Debug\revisionForm.exe.config
+G:\My Drive\School_Stuff\UTeM_Doc\Sem\Year2\Sem2\Event-Driven Programming\C#_Fun\revisionForm\bin\Debug\revisionForm.exe
+G:\My Drive\School_Stuff\UTeM_Doc\Sem\Year2\Sem2\Event-Driven Programming\C#_Fun\revisionForm\bin\Debug\revisionForm.pdb
+G:\My Drive\School_Stuff\UTeM_Doc\Sem\Year2\Sem2\Event-Driven Programming\C#_Fun\revisionForm\obj\Debug\revisionForm.csproj.AssemblyReference.cache
+G:\My Drive\School_Stuff\UTeM_Doc\Sem\Year2\Sem2\Event-Driven Programming\C#_Fun\revisionForm\obj\Debug\revisionForm.Form1.resources
+G:\My Drive\School_Stuff\UTeM_Doc\Sem\Year2\Sem2\Event-Driven Programming\C#_Fun\revisionForm\obj\Debug\revisionForm.Properties.Resources.resources
+G:\My Drive\School_Stuff\UTeM_Doc\Sem\Year2\Sem2\Event-Driven Programming\C#_Fun\revisionForm\obj\Debug\revisionForm.csproj.GenerateResource.cache
+G:\My Drive\School_Stuff\UTeM_Doc\Sem\Year2\Sem2\Event-Driven Programming\C#_Fun\revisionForm\obj\Debug\revisionForm.csproj.CoreCompileInputs.cache
+G:\My Drive\School_Stuff\UTeM_Doc\Sem\Year2\Sem2\Event-Driven Programming\C#_Fun\revisionForm\obj\Debug\revisionForm.exe
+G:\My Drive\School_Stuff\UTeM_Doc\Sem\Year2\Sem2\Event-Driven Programming\C#_Fun\revisionForm\obj\Debug\revisionForm.pdb
