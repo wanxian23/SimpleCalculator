@@ -34,7 +34,7 @@
    ```bash
    git clone https://github.com/wanxian23/SimpleCalculator.git
 
-2. Open the solution file calculator.sln in Visual Studio.
+2. Open the solution file `calculator.sln` in Visual Studio.
 
 3. Build the solution (Build > Build Solution).
 
