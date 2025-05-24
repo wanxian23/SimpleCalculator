@@ -8,3 +8,4 @@ G:\My Drive\School_Stuff\UTeM_Doc\Sem\Year2\Sem2\Event-Driven Programming\C#_Fun
 G:\My Drive\School_Stuff\UTeM_Doc\Sem\Year2\Sem2\Event-Driven Programming\C#_Fun\calculatorC#\obj\Debug\CalculatorForm.csproj.CoreCompileInputs.cache
 G:\My Drive\School_Stuff\UTeM_Doc\Sem\Year2\Sem2\Event-Driven Programming\C#_Fun\calculatorC#\obj\Debug\revisionForm.exe
 G:\My Drive\School_Stuff\UTeM_Doc\Sem\Year2\Sem2\Event-Driven Programming\C#_Fun\calculatorC#\obj\Debug\revisionForm.pdb
+G:\My Drive\School_Stuff\UTeM_Doc\Sem\Year2\Sem2\Event-Driven Programming\C#_Fun\calculatorC#\obj\Debug\revisionForm.exe.config
